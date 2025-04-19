@@ -1,14 +1,21 @@
-export default function DashboardLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+import './globals.css'
+import Navbar from './components/Navbar' 
+import Footer from './components/Footer'
+import { ReactNode } from 'react'
+
+
+export const metadata = {
+  title: 'personal-portifolio',
+  description: 'Hi, my name´s João Pedro de Moura, Welcome to my portfolio!',
+}
+
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body>
-        {/* Layout UI */}
-        {/* Place children where you want to render a page or nested layout */}
-        <main>{children}</main>
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   )
