@@ -1,14 +1,8 @@
-import styles from "./Projects.module.css"
-
-export default function Page({ children }: { children: React.ReactNode }) {
+export default function ProjectsPage({ children }: { children: React.ReactNode }) {
     return (
-        <main className={styles.projects}>
-            <h1> 
-                Opa
-            </h1>
-            <div>
-                {children}
-            </div>
-        </main>
+      <section className="text-left">
+        <h1 className="text-2xl font-bold mb-4">Opa</h1>
+        <div>{children}</div>
+      </section>
     )
-}
+  }

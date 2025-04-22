@@ -1,36 +1,26 @@
 import './globals.css'
-import Navbar from './components/Navbar' 
+import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-// Importing fonts from Google Fonts and roboto
 import { Geist, Roboto } from 'next/font/google'
-// Metadata for the application
 import type { Metadata } from 'next'
 
-const geist = Geist({
-  subsets: ['latin'],
-  variable: '--font-roboto'
-})
-
-const roboto = Roboto({
-  weight: '400',
-  subsets: ['latin'],
-  variable: '--font-geist'
-})
+// Importing fonts from Google Fonts and roboto
+const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
+const roboto = Roboto({ weight: '400', subsets: ['latin'], variable: '--font-roboto' })
 
 export const metadata: Metadata = {
   title: 'personal-portifolio',
-  description: 'Hi, my names João Pedro de Moura, Welcome to my portfolio!',
+  description: 'Hi, my name is João Pedro de Moura. Welcome to my portfolio!'
 }
 
-// Main layout of the application
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="pt-BR">
-      <body className={`${roboto.variable} ${geist.variable}`} /*className="text-3xl font-bold underline"*/>
-        <Navbar/>
-        <div className="content-wrapper">
-          {children}  
-        </div>
+      <body className={`${roboto.variable} ${geist.variable} bg-black text-white min-h-screen flex flex-col`}>
+        <Navbar />
+        <main className="flex-1 px-6 py-10 max-w-4xl mx-auto">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

@@ -1,14 +1,8 @@
-import styles from "./About.module.css"
- 
-export default function Page({ children }: { children: React.ReactNode }) {
+export default function AboutPage({ children }: { children: React.ReactNode }) {
   return (
-    <>
-      <main className={styles.about}>
-        <div>
-          <h1>Ola</h1>
-          {children}
-        </div>
-      </main>
-    </>
+    <section className="text-left">
+      <h1 className="text-2xl font-bold mb-4">Olá</h1>
+      <div>{children}</div>
+    </section>
   )
 }
