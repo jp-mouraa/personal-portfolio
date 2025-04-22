@@ -1,0 +1,13 @@
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.line {
+  width: 80%;
+  margin: 0 auto 10px;
+  border: none;
+  border-top: 1px solid white;
+} 
+  
+  
