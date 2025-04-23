@@ -21,9 +21,8 @@
 
 body {
   margin: 0 auto;
-  padding: 20px 100px 0px; 
+  padding: 0px 100px 0px; 
   min-height: 100vh;
-  display: flex;
   flex-direction: column;
   max-width: 900px;
   background: var(--background);
