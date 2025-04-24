@@ -1,8 +1,10 @@
 export default function Footer() {
   return (
-    <footer className="text-center py-8 text-sm mt-10">
-      <hr className="w-8/10 mx-auto border-t border-white mb-4" />
-      <p className="text-white">© {new Date().getFullYear()} Jp moura</p>
+    <footer className="mt-16">
+      <div className="w-4/5 border-t border-gray-600 mx-auto mb-4"></div>
+      <p className="text-center text-gray-500 text-sm pb-4">
+        © {new Date().getFullYear()} Jp Moura
+      </p>
     </footer>
   )
 }
