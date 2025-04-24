@@ -1,4 +1,4 @@
-export default function AboutPage({ children }: { children: React.ReactNode }) {
+export default function AboutPage() {
   return (
     <section className="text-left px-6 py-10">
       <h1 className="text-4xl font-bold mb-6 text-white">About me</h1>
@@ -18,7 +18,6 @@ export default function AboutPage({ children }: { children: React.ReactNode }) {
           processes, used LLMs for business tasks, and performed pentests to enhance system security.
         </p>
       </div>
-      <div>{children}</div>
     </section>
   );
 }
