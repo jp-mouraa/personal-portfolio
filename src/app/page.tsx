@@ -16,7 +16,7 @@ export default function HomePage() {
             • Bachelor of Data Science and Artificial Intelligence from{" "}
             <a className="text-blue-400 hover:underline"> PUCRS </a>
             <br/>
-            • Master&apos;s Student in Computer Science from {" "}
+            • Masters Student in Computer Science from {" "}
             <a className="text-blue-400 hover:underline"> PUCRS </a>
             <br/>
             • Future Full Stack Specialist from {" "}

@@ -9,7 +9,7 @@ export default function AboutPage({ children }: { children: React.ReactNode }) {
 
       <div className="text-gray-300 space-y-4 max-w-4xl">
         <p>
-          I started my academic journey in 2019 with a Technical degree in Informatics at SENAC. In 2021, I began my Bachelor&apos;s 
+          I started my academic journey in 2019 with a Technical degree in Informatics at SENAC. In 2021, I began my Bachelor 
           degree in Data Science and Artificial Intelligence at PUCRS, which I completed in 2024.
         </p>
         <p>
