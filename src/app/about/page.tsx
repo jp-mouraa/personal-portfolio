@@ -14,7 +14,7 @@ export default function AboutPage({ children }: { children: React.ReactNode }) {
         </p>
         <p>
           I have experience in Data Science, Data Analysis, and Cybersecurity, having interned at companies such as PROCERGS, 
-          Compass UOL, Dataglass, and ADP. I&#39;ve worked with dashboards in Power BI and Tableau, built data pipelines and ETL 
+          Compass UOL, Dataglass, and ADP. I have worked with dashboards in Power BI and Tableau, built data pipelines and ETL 
           processes, used LLMs for business tasks, and performed pentests to enhance system security.
         </p>
       </div>

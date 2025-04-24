@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <main>
       <div>
-        <h1 className="text-4xl font-bold text-center">Hi! I&#39;m João Pedro</h1>
+        <h1 className="text-4xl font-bold text-center">Hi! I am João Pedro</h1>
         <h1 className="text-4xl text-center mb-5">Welcome to my portifolio!</h1>
         <div className="flex justify-center mb-5">
           <Image src={profilePic} alt="jp" width={225} height={225} 
