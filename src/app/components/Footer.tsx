@@ -1,32 +1,10 @@
-const Footer = () => {
-    return (
-      <>
-        <hr/>
-        <div className="footer-container">
-          <p>
-            © {new Date().getFullYear()} Jp moura
-          </p>
-          <div className="social_icons">
-            <a
-              href="https://github.com/olawanlejoel"
-              aria-label="GitHub"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/olawanlejoel/"
-              aria-label="LinkedIn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-linkedin"></i>
-            </a>
-          </div>
-        </div>
-      </>
-    )
-  }
-  
-  export default Footer;
+export default function Footer() {
+  return (
+    <footer className="mt-16">
+      <div className="w-4/5 border-t border-gray-600 mx-auto mb-4"></div>
+      <p className="text-center text-gray-500 text-sm pb-4">
+        © {new Date().getFullYear()} Jp Moura
+      </p>
+    </footer>
+  )
+}
