@@ -5,19 +5,18 @@ export default function ProjectsPage() {
 
       <div className="space-y-6 text-white">
         <div>
-          <h2 className="text-2xl font-semibold">Classificador de Jogos</h2>
+          <h2 className="text-2xl font-semibold">Game Classifiers</h2>
           <p>
-            Aplicação prática de machine learning desenvolvida para classificar jogos por gênero
-            com base em suas descrições. Utiliza modelos de aprendizado supervisionado para prever o gênero
-            com alta precisão.
+          Practical machine learning application developed to classify games by genre based on their descriptions. 
+          It uses supervised learning models to predict genre with high accuracy.
           </p>
         </div>
 
         <div>
-          <h2 className="text-2xl font-semibold">Projetos Financeiros (em andamento)</h2>
+          <h2 className="text-2xl font-semibold">Financial Projects (in progress)</h2>
           <p>
-            Desenvolvimento de aplicações voltadas ao mercado financeiro. Utiliza análise de dados
-            e modelos preditivos para auxiliar na tomada de decisão sobre investimentos.
+          Development of applications aimed at the financial market. 
+          Use of data analysis and predictive models to assist in decision-making on investments.
           </p>
         </div>
       </div>
